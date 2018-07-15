@@ -1,0 +1,508 @@
+/*---- html ------*/
+/* line 5, ../../../sass/colors/red/style.scss */
+a {
+  color: #da3e3e;
+}
+/* line 7, ../../../sass/colors/red/style.scss */
+a:hover, a:focus {
+  color: #7d7d7d;
+}
+
+/* line 13, ../../../sass/colors/red/style.scss */
+.node blockquote {
+  border-left-color: #da3e3e;
+}
+/* line 18, ../../../sass/colors/red/style.scss */
+.node .blockquote-reverse,
+.node blockquote.pull-right {
+  border-right-color: #da3e3e;
+}
+
+/*---- Block -----*/
+/* line 25, ../../../sass/colors/red/style.scss */
+.sidebar h2 {
+  background: #da3e3e;
+}
+/* line 30, ../../../sass/colors/red/style.scss */
+.sidebar .item-list .quicktabs-tabs li a {
+  background: #da3e3e;
+}
+/* line 34, ../../../sass/colors/red/style.scss */
+.sidebar .item-list .quicktabs-tabs li.active a {
+  color: #da3e3e;
+}
+/* line 43, ../../../sass/colors/red/style.scss */
+.sidebar .item-list ul li a:hover, .sidebar .item-list ul li a:focus {
+  color: #da3e3e;
+}
+/* line 52, ../../../sass/colors/red/style.scss */
+.sidebar .quicktabs-tabpage .views-field-title a:hover, .sidebar .quicktabs-tabpage .views-field-title a:focus {
+  color: #da3e3e;
+}
+/* line 61, ../../../sass/colors/red/style.scss */
+.sidebar ul.menu li a:hover, .sidebar ul.menu li a:focus {
+  color: #da3e3e;
+}
+/* line 66, ../../../sass/colors/red/style.scss */
+.sidebar ul.menu li.expanded > a {
+  color: #da3e3e;
+}
+/* line 68, ../../../sass/colors/red/style.scss */
+.sidebar ul.menu li.expanded > a:after {
+  border-bottom: 5px solid #da3e3e;
+}
+
+/* line 79, ../../../sass/colors/red/style.scss */
+.faq-question.faq-qa-visible .active {
+  color: #da3e3e;
+}
+
+/* Login form */
+/* line 88, ../../../sass/colors/red/style.scss */
+#modalContent .popups-container .modal-header {
+  background: #da3e3e;
+}
+/* line 92, ../../../sass/colors/red/style.scss */
+#modalContent .popups-container #modal-content form .form-submit {
+  background: #da6e3e;
+}
+/* line 94, ../../../sass/colors/red/style.scss */
+#modalContent .popups-container #modal-content form .form-submit:hover, #modalContent .popups-container #modal-content form .form-submit:focus {
+  background: #da3e3e;
+}
+/* line 99, ../../../sass/colors/red/style.scss */
+#modalContent .popups-container #modal-content form .item-list li a:hover, #modalContent .popups-container #modal-content form .item-list li a:focus {
+  color: #da3e3e;
+}
+
+/*----- menu -----*/
+/* line 115, ../../../sass/colors/red/style.scss */
+.navbar-default ul.menu li a.active, .navbar-default ul.menu li a.active-trail, .navbar-default ul.menu li a:hover, .navbar-default ul.menu li a:focus {
+  background: #da3e3e;
+}
+/* line 123, ../../../sass/colors/red/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li a:focus, .navbar-default ul.menu li.expanded ul.menu li a.active-trail {
+  background: white;
+  color: #da3e3e;
+}
+/* line 131, ../../../sass/colors/red/style.scss */
+.navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a:hover, .navbar-default ul.menu li.expanded ul.menu li.expanded ul.menu li a:focus {
+  background: #da3e3e;
+}
+
+/*----- Navigation -----*/
+/* line 147, ../../../sass/colors/red/style.scss */
+.action-links li a {
+  background: #da3e3e;
+}
+/* line 149, ../../../sass/colors/red/style.scss */
+.action-links li a:hover, .action-links li a:focus {
+  background: #333333;
+}
+/* line 154, ../../../sass/colors/red/style.scss */
+.action-links.action-links-field-collection-add li a {
+  color: #da3e3e;
+}
+/* line 156, ../../../sass/colors/red/style.scss */
+.action-links.action-links-field-collection-add li a:hover, .action-links.action-links-field-collection-add li a:focus {
+  background-color: transparent;
+}
+
+/* pager */
+/* line 164, ../../../sass/colors/red/style.scss */
+.item-list .pager li:hover a, .item-list .pager li:focus a, .item-list .pager .pager-current {
+  background: #da3e3e;
+}
+/* line 168, ../../../sass/colors/red/style.scss */
+.item-list .pager li a:hover, .item-list .pager li a:focus {
+  background-color: #da3e3e;
+}
+
+/* Primary */
+/* line 178, ../../../sass/colors/red/style.scss */
+ul.primary li a:hover, ul.primary li a:focus, ul.primary li a.active {
+  color: #da3e3e;
+}
+
+/* line 187, ../../../sass/colors/red/style.scss */
+.block-tagclouds .tagclouds-term a:hover, .block-tagclouds .tagclouds-term a:focus {
+  border-color: #da3e3e;
+  background: #da3e3e;
+}
+
+/* Back to top */
+/* line 195, ../../../sass/colors/red/style.scss */
+.btn-btt {
+  background: #da3e3e;
+}
+/* line 197, ../../../sass/colors/red/style.scss */
+.btn-btt:hover, .btn-btt:focus {
+  background: #333333;
+}
+
+/* Button sidebar link */
+/* line 203, ../../../sass/colors/red/style.scss */
+.button-sidebar-link {
+  background: #da3e3e;
+}
+
+/*----- Page -----*/
+/* line 209, ../../../sass/colors/red/style.scss */
+.form-submit,
+.form-actions > a {
+  background: #da6e3e;
+  border-color: #da6e3e;
+}
+/* line 212, ../../../sass/colors/red/style.scss */
+.form-submit:hover, .form-submit:focus,
+.form-actions > a:hover,
+.form-actions > a:focus {
+  background: #da3e3e;
+  border-color: #da3e3e;
+}
+
+/* Headline */
+/* line 222, ../../../sass/colors/red/style.scss */
+.headline .social-list li a:hover, .headline .social-list li a:focus {
+  color: #da3e3e;
+}
+/* line 228, ../../../sass/colors/red/style.scss */
+.headline #block-search-form:hover:before {
+  color: #da3e3e;
+}
+/* line 235, ../../../sass/colors/red/style.scss */
+.headline .block-menu ul.menu a:hover, .headline .block-menu ul.menu a:focus {
+  color: #da3e3e;
+}
+
+/* Header */
+/* line 245, ../../../sass/colors/red/style.scss */
+.header:after {
+  background: #da3e3e;
+}
+
+/* Search */
+/* line 251, ../../../sass/colors/red/style.scss */
+.search-wrapper {
+  background: #da3e3e;
+}
+
+/* Breadcrumb */
+/* line 258, ../../../sass/colors/red/style.scss */
+.breadcrumb a:hover, .breadcrumb a:focus {
+  color: #da3e3e;
+}
+
+/* line 264, ../../../sass/colors/red/style.scss */
+.section-title {
+  background: url("images/bg-banner.jpg") no-repeat 50% 0 #d05a66;
+}
+
+/* Panel */
+/* line 270, ../../../sass/colors/red/style.scss */
+#panel-first a {
+  color: #da3e3e;
+}
+/* line 272, ../../../sass/colors/red/style.scss */
+#panel-first a:hover, #panel-first a:focus {
+  text-decoration: underline;
+}
+
+/* line 283, ../../../sass/colors/red/style.scss */
+#panel-second .block ul.menu li a:hover, #panel-second .block ul.menu li a:focus {
+  color: #da3e3e;
+}
+/* line 295, ../../../sass/colors/red/style.scss */
+#panel-second .block .lang_dropdown_form .form-item .dd-select .dd-pointer-up {
+  border-bottom-color: #da3e3e !important;
+}
+
+/* line 309, ../../../sass/colors/red/style.scss */
+#panel-footer ul.menu li a:hover, #panel-footer ul.menu li a:focus {
+  color: #da3e3e;
+}
+/* line 311, ../../../sass/colors/red/style.scss */
+#panel-footer ul.menu li a:hover:before, #panel-footer ul.menu li a:focus:before {
+  color: #da3e3e;
+}
+/* line 318, ../../../sass/colors/red/style.scss */
+#panel-footer a {
+  color: #da3e3e;
+}
+/* line 323, ../../../sass/colors/red/style.scss */
+#panel-footer .views-field-title a:hover, #panel-footer .views-field-title a:focus {
+  color: #da3e3e;
+}
+/* line 330, ../../../sass/colors/red/style.scss */
+#panel-footer .views-field-name .username,
+#panel-footer .views-field-created .username {
+  color: #da3e3e;
+}
+/* line 335, ../../../sass/colors/red/style.scss */
+#panel-footer .social-list li a {
+  color: #da3e3e;
+}
+
+/* Forum */
+/* line 347, ../../../sass/colors/red/style.scss */
+#forum .forum-table td .forum-name a:hover, #forum .forum-table td .forum-name a:focus {
+  color: #da3e3e;
+}
+
+/* Footer */
+/* line 362, ../../../sass/colors/red/style.scss */
+#footer .block ul.menu li a:hover, #footer .block ul.menu li a:focus, #footer .block ul.menu li a.active {
+  color: #da3e3e;
+}
+
+/* Forum advance */
+/* line 375, ../../../sass/colors/red/style.scss */
+.af-button-large,
+.af-button-small,
+.author-pane-link,
+.forum-post-links ul.links li a {
+  background: #da3e3e;
+}
+
+/* line 381, ../../../sass/colors/red/style.scss */
+.forum-table-topics td.views-field-title span:hover, .forum-table-topics td.views-field-title span:focus, .forum-table-topics td.views-field-title .topic-title:hover, .forum-table-topics td.views-field-title .topic-title:focus {
+  color: #da3e3e;
+}
+/* line 385, ../../../sass/colors/red/style.scss */
+.forum-table-topics td.views-field-title .username {
+  color: #da3e3e;
+}
+
+/* line 394, ../../../sass/colors/red/style.scss */
+.topic-icon-hot-new:before,
+.topic-icon-new:before,
+.topic-icon-sticky:before,
+td.forum-list-icon-new-posts span:before,
+.forum-list-text-legend-new-posts:before {
+  color: #da3e3e !important;
+}
+
+/* Table name and description on forum list and table header on topic list */
+/* line 405, ../../../sass/colors/red/style.scss */
+.forum-table-wrap .forum-table-superheader,
+.forum-table-topics thead tr,
+#forum .forum-table thead tr,
+.forum-post-info,
+#user-login h3,
+#user-register-form h3,
+#user-pass h3, .profile h3 {
+  background: #da3e3e !important;
+}
+
+/* line 411, ../../../sass/colors/red/style.scss */
+.forum-tools form > div:before {
+  border-top: 5px solid #da3e3e;
+}
+
+/* View */
+/* line 420, ../../../sass/colors/red/style.scss */
+.views-field-title a:hover, .views-field-title a:focus,
+.views-field-subject a:hover,
+.views-field-subject a:focus {
+  color: #da3e3e;
+}
+
+/* line 427, ../../../sass/colors/red/style.scss */
+.views-field-name .username,
+.views-field-created .username {
+  color: #da3e3e;
+}
+
+/* line 434, ../../../sass/colors/red/style.scss */
+.forum-blog-view .views-row .views-field-title a:hover,
+.forum-blog-view .views-row .views-field-title a:focus {
+  color: #da3e3e;
+}
+
+/* line 442, ../../../sass/colors/red/style.scss */
+.views-field-field-tags .item-list ul li a:hover, .views-field-field-tags .item-list ul li a:focus {
+  border-color: #da3e3e;
+  background: #da3e3e;
+}
+
+/* line 453, ../../../sass/colors/red/style.scss */
+.field-name-field-tags div,
+.field-name-field-section div,
+.field-name-field-category div {
+  display: inline-block;
+}
+/* line 457, ../../../sass/colors/red/style.scss */
+.field-name-field-tags div + div a:hover, .field-name-field-tags div + div a:focus,
+.field-name-field-section div + div a:hover,
+.field-name-field-section div + div a:focus,
+.field-name-field-category div + div a:hover,
+.field-name-field-category div + div a:focus {
+  background: #da3e3e;
+}
+
+/* line 470, ../../../sass/colors/red/style.scss */
+.field-name-field-tags .field-items .field-item a:hover,
+.field-name-field-tags .field-items .field-item a:focus,
+.field-name-field-section .field-items .field-item a:hover,
+.field-name-field-section .field-items .field-item a:focus,
+.field-name-field-category .field-items .field-item a:hover,
+.field-name-field-category .field-items .field-item a:focus {
+  border-color: #da3e3e;
+  background: #da3e3e;
+}
+
+/* Node */
+/* line 478, ../../../sass/colors/red/style.scss */
+.node h2 a:hover, .node h2 a:focus {
+  color: #da3e3e;
+}
+/* line 482, ../../../sass/colors/red/style.scss */
+.node .submitted .username {
+  color: #da3e3e;
+}
+
+/* line 487, ../../../sass/colors/red/style.scss */
+.calendar-calendar {
+  background: #da3e3e;
+}
+
+/* line 491, ../../../sass/colors/red/style.scss */
+span.username {
+  color: #da3e3e;
+}
+
+/* line 497, ../../../sass/colors/red/style.scss */
+.views-field-field-video-link a:before {
+  color: #da3e3e;
+}
+
+/* Page 404 */
+/* line 505, ../../../sass/colors/red/style.scss */
+.page-404 h1 {
+  color: #da3e3e;
+}
+/* line 509, ../../../sass/colors/red/style.scss */
+.page-404 #errorbox a:hover, .page-404 #errorbox a:focus {
+  background: #da3e3e;
+}
+
+/* FAQs */
+/* line 519, ../../../sass/colors/red/style.scss */
+.faq .faq-question a:hover, .faq .faq-question a:focus {
+  color: #da3e3e;
+}
+/* line 522, ../../../sass/colors/red/style.scss */
+.faq .faq-question a:before {
+  color: #da3e3e;
+}
+/* line 527, ../../../sass/colors/red/style.scss */
+.faq .faq-question.faq-qa-visible a {
+  color: #da3e3e;
+}
+
+/* line 538, ../../../sass/colors/red/style.scss */
+#content .forum-jump-links a.af-button-large:hover, #content .forum-jump-links a.af-button-large:focus,
+#content .forum-jump-links a.af-button-small:hover,
+#content .forum-jump-links a.af-button-small:focus,
+#content .forum-jump-links a.author-pane-link:hover,
+#content .forum-jump-links a.author-pane-link:focus {
+  color: #da3e3e;
+}
+
+/* line 544, ../../../sass/colors/red/style.scss */
+.off-canvas-toggle {
+  color: #da3e3e;
+}
+/* line 546, ../../../sass/colors/red/style.scss */
+.off-canvas-toggle:hover, .off-canvas-toggle:focus {
+  color: #da3e3e;
+}
+
+/* line 554, ../../../sass/colors/red/style.scss */
+ul.inline li a.active:hover, ul.inline li a.active:focus {
+  color: #da3e3e;
+}
+
+/* line 564, ../../../sass/colors/red/style.scss */
+.item-list .pager .pager-previous a:before,
+.item-list .pager .pager-next a:before {
+  color: #da3e3e;
+}
+
+/* line 573, ../../../sass/colors/red/style.scss */
+.comment ul.inline li a:hover, .comment ul.inline li a:focus {
+  background: #da3e3e;
+  color: white;
+  border-color: #da3e3e;
+}
+
+/* line 584, ../../../sass/colors/red/style.scss */
+.forum-jump-links .af-button-large:hover, .forum-jump-links .af-button-large:focus, .forum-jump-links .af-button-small:hover, .forum-jump-links .af-button-small:focus, .forum-jump-links .author-pane-link:hover, .forum-jump-links .author-pane-link:focus {
+  background: transparent !important;
+  color: #da3e3e !important;
+}
+
+/*******/
+/* line 592, ../../../sass/colors/red/style.scss */
+span.forum-collapsible {
+  background: #a60505;
+}
+
+/* line 597, ../../../sass/colors/red/style.scss */
+td.forum-last-reply a:hover, td.forum-last-reply a:focus {
+  color: #da3e3e;
+}
+
+/* line 603, ../../../sass/colors/red/style.scss */
+.forum-table-topics td.views-field-title:hover span, .forum-table-topics td.views-field-title:hover .topic-title, .forum-table-topics td.views-field-title:hover .sticky-label, .forum-table-topics td.views-field-title:focus span, .forum-table-topics td.views-field-title:focus .topic-title, .forum-table-topics td.views-field-title:focus .sticky-label {
+  color: #da3e3e;
+}
+
+/* line 607, ../../../sass/colors/red/style.scss */
+.icon-search-hover, .headline #block-search-form:hover:before {
+  background-position: 0 0;
+}
+
+/* line 616, ../../../sass/colors/red/style.scss */
+#panel-footer .social-list li a:hover:before, #panel-footer .social-list li a:focus:before {
+  color: #da3e3e;
+}
+
+/* line 627, ../../../sass/colors/red/style.scss */
+#advanced-forum-forum-topic-list-sort-form input:hover, #advanced-forum-forum-topic-list-sort-form input:focus {
+  background-color: #da3e3e;
+}
+
+/* line 632, ../../../sass/colors/red/style.scss */
+.chosen-container-active.chosen-with-drop .chosen-single {
+  color: #da3e3e;
+}
+/* line 634, ../../../sass/colors/red/style.scss */
+.chosen-container-active.chosen-with-drop .chosen-single:before {
+  border-bottom-color: #da3e3e;
+}
+
+/* line 641, ../../../sass/colors/red/style.scss */
+.chosen-container .chosen-results li:hover, .chosen-container .chosen-results li:focus, .chosen-container .chosen-results li.highlighted {
+  background-color: #da3e3e;
+}
+
+/* line 649, ../../../sass/colors/red/style.scss */
+.comment h3 a:hover, .comment h3 a:focus {
+  color: #da3e3e;
+}
+
+/* line 655, ../../../sass/colors/red/style.scss */
+ul.inline li.comment-comments a:hover, ul.inline li.comment-comments a:focus {
+  color: #da3e3e;
+}
+
+/* line 660, ../../../sass/colors/red/style.scss */
+td.forum-last-reply .username {
+  color: #da3e3e;
+}
+
+/* line 664, ../../../sass/colors/red/style.scss */
+.forum-post-panel-sub .author-pane .author-name .username {
+  color: #da3e3e;
+}

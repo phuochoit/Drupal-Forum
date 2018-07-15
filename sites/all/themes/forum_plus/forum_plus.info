@@ -1,0 +1,85 @@
+name = Forum Plus
+description = Theme for the Companies
+version = VERSION
+core = 7.x
+engine = 'phptemplate'
+
+stylesheets[all][] = vendor/bootstrap/css/bootstrap.css
+stylesheets[all][] = vendor/bootstrap/css/bootstrap-theme.css
+stylesheets[all][] = css/styles.css
+
+
+scripts[] = 'vendor/bootstrap/js/bootstrap.js'
+scripts[] = 'js/jquery.smooth-scroll.js'
+scripts[] = 'js/jquery.cookie.js'
+scripts[] = 'js/jquery.matchHeight.js'
+scripts[] = 'js/moment.js'
+scripts[] = 'js/accordion_menu.js'
+scripts[] = 'js/weebpal.js'
+scripts[] = 'js/forum_plus.js'
+
+features[] = 'logo'
+features[] = 'name'
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+
+; regions
+regions[headline] = Headline
+regions[header] = Header
+regions[main_menu] = Main Menu
+regions[slideshow] = Slideshow
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[welcome] = Welcome
+
+regions[panel_first] = Panel First
+regions[panel_second] = Panel Second
+regions[panel_third] = Panel Third
+
+regions[gmap] = GMap
+
+regions[panel_footer_1] = Panel Footer 1
+regions[panel_footer_2] = Panel Footer 2
+regions[panel_footer_3] = Panel Footer 3
+regions[panel_footer_4] = Panel Footer 4
+regions[footer] = Footer
+
+settings[sidebar_first_width] = 3
+settings[sidebar_second_width] = 3
+
+settings[panel_footer_1_width] = 3
+settings[panel_footer_2_width] = 3
+settings[panel_footer_3_width] = 3
+settings[panel_footer_4_width] = 3
+
+; skins
+skins[red] = 'Red'
+skins[yellow] = 'Yellow'
+skins[green] = 'Green'
+
+; advanced forum
+plugins[advanced_forum][styles] = 'css/advanced_forum/plus'
+
+
+backgrounds[bg-1] = 'Background 1'
+backgrounds[bg-2] = 'Background 2'
+backgrounds[bg-3] = 'Background 3'
+backgrounds[bg-4] = 'Background 4'
+backgrounds[bg-5] = 'Background 5'
+backgrounds[bg-6] = 'Background 6'
+backgrounds[bg-7] = 'Background 7'
+
+layout[layout-boxed] = Boxed Layout
+settings[layout_width_default] = 1200
+
+
+

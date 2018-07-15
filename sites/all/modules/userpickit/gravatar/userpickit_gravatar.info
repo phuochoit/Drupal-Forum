@@ -1,0 +1,12 @@
+name = User Pic Kit Gravatars
+description = Provide Gravatar pictures.
+core = 7.x
+package = User Picture
+dependencies[] = gravatar
+dependencies[] = userpickit
+; Information added by Drupal.org packaging script on 2015-02-21
+version = "7.x-1.0-beta2"
+core = "7.x"
+project = "userpickit"
+datestamp = "1424504883"
+

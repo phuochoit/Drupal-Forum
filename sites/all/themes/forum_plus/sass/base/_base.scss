@@ -1,0 +1,107 @@
+/*------------------------------------------------------------------*/
+/* Typography */
+body {
+    background: #f6f6f6;
+    color: $dark-grey-1;
+    font: {
+        family: $font-body;
+        size: $body-fs;
+        weight: $font-light;
+    };
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    color: $dark;
+    line-height: normal;
+    margin: 0 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+a {
+    color: $blue;
+
+    &:hover, &:focus {
+        color: $dark-grey;
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+label {
+    font-weight: 100;
+}
+
+blockquote {
+    border-left-color: $blue;
+    font-size: 1em;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-text {
+    @include border-radius(3px);
+
+    color: $dark-grey-2;
+
+    &:hover, &:focus {
+        color: $dark-grey-2;
+    }
+}
+
+input, button, select, textarea {
+    background: $white;
+    border: 1px solid $border-color;
+    padding: 5px 10px;
+    max-width: 100%;
+
+    &:focus {
+        border-color: $dark-grey-2;
+    }
+}
+
+textarea {
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+input[type="text"] {
+    height: 30px;
+}
+
+select {
+    border-color: #d8d8d8;
+    color: #777;
+    min-width: 150px;
+
+    @include border-radius(3px);
+
+    padding: 5px 10px;
+    line-height: 30px;
+    height: 30px;
+}
+
+label, label.option {
+    font-weight: 300;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.icon-search {
+    background-position: 0 0;
+    width: 15px;
+    height: 15px;
+}
+
+.icon-search-hover {
+    background-position: -20px 0;
+}

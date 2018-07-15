@@ -1,0 +1,186 @@
+#panel-footer {
+    background-color: $dark;
+    color: $dark-grey-2;
+    padding: 50px 0 40px;
+    margin-bottom: 0;
+
+    a {
+        color: $blue;
+
+        &:hover,
+        &:focus {
+            color: #fff;
+        }
+    }
+
+    h2 {
+        font: {
+            size: $fs-15;
+            weight: $font-primary;
+        };
+        text-transform: uppercase;
+        color: $white;
+        margin-bottom: 50px;
+    }
+
+    .content {
+        font-size: $fs-14;
+    }
+
+    ul.menu {
+        li {
+            padding-bottom: 3px;
+
+            a {
+                color: $dark-grey-2;
+                display: block;
+                position: relative;
+                padding-left: 10px;
+
+                &:before {
+                    @include fontawesome;
+
+                    content: "\f0da";
+                    position: absolute;
+                    left: 0;
+                    top: 1px;
+                }
+
+                &:hover,
+                &:focus {
+                    color: $blue;
+                }
+            }
+        }
+    }
+
+    .views-field-title {
+        font-size: 14px;
+        font-weight: 400;
+
+        a {
+            color: #fff;
+
+            &:hover,
+            &:focus {
+                color: $blue;
+            }
+        }
+    }
+
+    .views-field-created,
+    .views-field-name {
+        color: #666;
+        line-height: 1.2;
+        font-size: 14px;
+
+        .username {
+            color: $blue;
+        }
+        a.username {
+            &:hover, &:focus {
+                color: #fff;
+            }
+        }
+    }
+
+    .forum-panel-footer-view {
+        .views-row {
+            margin-bottom: 17px;
+        }
+    }
+
+    .social-list {
+        @include social-list;
+
+        margin-top: 0;
+        float: right;
+
+        li {
+            margin-left: 15px;
+            margin-right: 0;
+
+            a:hover,
+            a:focus {
+                color: $blue;
+
+                &:before {
+                    color: $blue;
+                }
+            }
+
+            a:before {
+                color: $dark-grey-2;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .last-block {
+        text-align: right;
+    }
+
+    address {
+        .fa {
+            margin-right: 5px;
+        }
+    }
+}
+
+/* Footer */
+#footer {
+    background: #444;
+    color: $white;
+    padding: 10px 0;
+    line-height: 1;
+    font-size: $fs-14;
+
+    .block {
+        float: left;
+        padding: 8px 0;
+        width: 40%;
+
+        &:last-child {
+            width: 60%;
+            text-align: right;
+        }
+    }
+
+    ul.menu {
+        li {
+            display: inline-block;
+            margin-right: 20px;
+
+            a {
+                color: $white;
+
+                &:hover, &:focus, &.active {
+                    color: $blue;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    a:hover,
+    a:focus {
+        color: $white;
+    }
+
+    .copyright {
+        margin: 0;
+        text-align: right;
+
+        a {
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}

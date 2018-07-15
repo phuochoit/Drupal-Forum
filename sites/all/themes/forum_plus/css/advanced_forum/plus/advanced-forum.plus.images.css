@@ -1,0 +1,475 @@
+/* FORUM LIST ICONS *********************************************************/
+/* line 7, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+td.forum-list-icon,
+td.forum-list-icon-new-posts {
+  padding-right: 0;
+  padding-left: 12px;
+  width: 30px;
+}
+/* line 12, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+td.forum-list-icon span,
+td.forum-list-icon-new-posts span {
+  text-decoration: none;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+/* line 19, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+td.forum-list-icon span span,
+td.forum-list-icon-new-posts span span {
+  display: none;
+}
+/* line 23, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+td.forum-list-icon span:before,
+td.forum-list-icon-new-posts span:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #999999;
+  content: "\f15c";
+  font-size: 25px;
+  line-height: 1;
+}
+
+/* line 36, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+td.forum-list-icon-new-posts span:before {
+  color: #348bc2;
+}
+
+/* line 44, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+tr.even td.forum-list-icon-default .forum-list-icon-wrapper span,
+tr.odd td.forum-list-icon-default .forum-list-icon-wrapper span,
+.forum-list-icon-legend .forum-list-icon-default {
+  display: none;
+}
+
+/* line 50, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+tr.even td.forum-list-icon-default .forum-list-icon-wrapper span:before,
+tr.odd td.forum-list-icon-default .forum-list-icon-wrapper span:before,
+.forum-list-icon-legend .forum-list-icon-default:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f0f6";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 61, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+tr.even td.forum-list-icon-new-posts .forum-list-icon-wrapper span,
+tr.odd td.forum-list-icon-new-posts .forum-list-icon-wrapper span,
+.forum-list-icon-legend .forum-list-icon-new-posts {
+  display: none;
+}
+
+/* TOPIC LIST ICONS *********************************************************/
+/* line 67, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+span.topic-icon {
+  width: 24px;
+  height: 24px;
+  text-indent: 0;
+  background: none;
+  font-size: 0;
+  text-indent: 0;
+}
+/* line 75, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+span.topic-icon:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 25px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* line 85, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.topic-icon-default:before {
+  content: "\f15c";
+  color: #7d7d7d;
+}
+
+/* line 92, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.topic-icon-new:before {
+  content: "\f15c";
+  color: #348bc2;
+}
+
+/* line 99, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.topic-icon-hot:before {
+  content: "\f192";
+  color: #7d7d7d;
+}
+
+/* line 106, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.topic-icon-hot-new:before {
+  content: "\f192";
+  color: #348bc2;
+}
+
+/* line 113, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.topic-icon-sticky:before {
+  content: "\f024";
+  color: #348bc2;
+}
+
+/* line 120, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.topic-icon-closed:before {
+  content: "\f023";
+  color: #7d7d7d;
+}
+
+/* line 126, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+span.forum-collapsible {
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #196b9f;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 140, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+span.forum-collapsible:before {
+  font-family: "Lato", sans-serif;
+  text-indent: 0;
+  text-align: center;
+  content: "-";
+  color: #fff;
+  line-height: 14px;
+  font-size: 20px;
+  display: block;
+}
+
+/* line 156, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+span.container-collapsed:before {
+  content: "+";
+  line-height: 15px;
+  font-size: 14px;
+}
+
+/* TOPIC LIST ICON LEGEND ***************************************************/
+/* line 165, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-topic-legend > div {
+  background: none;
+  padding: 0;
+  margin-bottom: 1px;
+  padding-left: 40px;
+}
+/* line 171, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-topic-legend > div:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  margin-right: 5px;
+  line-height: 1;
+}
+
+/* AUTHOR PANE **************************************************************/
+/* line 183, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-post-panel-sub .author-online {
+  color: #7fba00;
+  height: 20px;
+  width: 125px;
+  display: inline-block;
+  margin-right: -11px;
+  margin-top: -21px;
+}
+/* line 190, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-post-panel-sub .author-online:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f111";
+  font-size: 1.167em;
+  margin-right: 5px;
+}
+
+/* line 199, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-post-panel-sub .author-offline {
+  color: #7d7d7d;
+  height: 20px;
+  width: 125px;
+  display: inline-block;
+}
+/* line 205, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-post-panel-sub .author-offline:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f111";
+  font-size: 1.167em;
+  margin-right: 5px;
+}
+
+/* line 214, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-post-panel-sub .author-pane .picture {
+  border: 1px solid #eaeaea;
+  display: inline-block;
+}
+
+/* BUTTONIZED LINKS - GENERAL ***********************************************/
+/* Based on http://css-tricks.com/examples/ButtonMaker */
+/* line 231, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+a.af-button-large,
+a.af-button-large:link,
+a.af-button-large:visited,
+a.af-button-small,
+a.af-button-small:link,
+a.af-button-small:visited,
+a.author-pane-link,
+a.author-pane-link:link,
+a.author-pane-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 238, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.af-button-large,
+.af-button-small,
+.author-pane-link {
+  display: inline-block;
+  background: #34c288;
+  color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-transform: none;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 20px !important;
+  font-size: 0.933em;
+}
+
+/* line 259, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+a.af-button-large:hover,
+a.af-button-small:hover,
+a.author-pane-link:hover {
+  background: #7d7d7d;
+  color: white;
+}
+
+/* line 266, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+a.af-button-large:active,
+a.af-button-small:active,
+a.author-pane-link:active {
+  background: #2587C4;
+  color: #333333;
+  border-top-color: #EFEFEF;
+}
+
+/* line 272, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.af-button-large span {
+  font-size: 1em;
+  line-height: 1em;
+  padding: 0;
+  /* Last number controls width for image */
+  margin: 0;
+  /* Left and right space outside text & image */
+}
+
+/* line 286, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.af-button-small span:before,
+.author-pane-link span:before,
+.af-button-large span:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  margin: -2px 5px 0 0;
+  vertical-align: middle;
+}
+
+/* line 295, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.author-pane-link span {
+  font-size: 1em;
+  padding: 2px;
+  /* Last number controls width for image */
+  line-height: 22px;
+  /* Approximate height of button */
+  margin: 0 7px 0 7px;
+  /* Left and right space outside text & image */
+}
+
+/* BUTTONIZED LINKS - INDIVIDUAL BUTTONS ************************************/
+/* line 310, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-add-forum .af-button-large span:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f044";
+  font-size: 15px;
+  margin: 0 3px 0 0;
+  vertical-align: middle;
+}
+
+/* line 319, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-add-poll .af-button-large span {
+  background: url(images/add_poll.png) no-repeat;
+}
+
+/*** Reply/Locked at the top and bottom of individual topics. ***/
+/* Reply link */
+/* line 328, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.topic-reply-link > span:before {
+  content: "\f112";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  margin: 0 3px 0 0;
+  vertical-align: middle;
+}
+
+/* Locked topic (not a link so an extra span is used instead of the "a". */
+/* line 342, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.topic-reply-locked > span:before {
+  content: "\f023";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  margin: -2px 5px 0 0;
+  vertical-align: middle;
+}
+
+/* Last post */
+/* line 356, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.last-post-link span:before {
+  content: "\f122";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  margin: -2px 5px 0 0;
+  vertical-align: middle;
+}
+
+/* First unread */
+/* line 370, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.topic-new-post-link span:before {
+  content: "\f070";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  margin: -2px 5px 0 0;
+  vertical-align: middle;
+}
+
+/*** Links on the individual posts (nodes and comments). ***/
+/* General */
+/* Reply */
+/* line 392, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.comment-add .af-button-small span:before,
+.comment-reply .af-button-small span:before,
+.topic-reply-allowed span:before {
+  content: "\f112";
+}
+
+/* Quote */
+/* line 399, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.quote .af-button-small span {
+  background: url(images/post_quote.png) no-repeat;
+}
+
+/* Edit */
+/* line 407, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.comment-edit .af-button-small span:before,
+.post-edit .af-button-small span:before {
+  content: "\f040";
+}
+
+/* Delete */
+/* line 416, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.comment-delete .af-button-small span:before,
+.post-delete .af-button-small span:before {
+  content: "\f014";
+}
+
+/* Jump to top */
+/* line 423, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-jump-links {
+  line-height: normal;
+}
+/* line 427, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-jump-links .af-button-small span:before {
+  content: "\f062";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  margin: -2px 5px 0 0;
+  vertical-align: middle;
+}
+
+/*** AUTHOR PANE ***/
+/* line 441, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-post-panel-sub .author-privatemsg .author-pane-link span {
+  background: transparent url(images/ap_private_message.png) no-repeat;
+}
+
+/* line 445, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-post-panel-sub .author-relationship-add-icon.author-pane-link span {
+  background: transparent url(images/ap_contact_add.png) no-repeat;
+}
+
+/* line 449, ../../../sass/advanced_forum/plus/advanced-forum.plus.images.scss */
+.forum-post-panel-sub .author-relationship-remove-icon.author-pane-link {
+  background: transparent url(images/ap_contact_remove.png) no-repeat;
+}

@@ -1,0 +1,451 @@
+@import "../../config/mixins";
+@import "../../config/variables";
+
+/* FORUM LIST ICONS *********************************************************/
+
+td.forum-list-icon,
+td.forum-list-icon-new-posts {
+    padding-right: 0;
+    padding-left: 12px;
+    width: 30px;
+
+    span {
+        text-decoration: none;
+        margin: 0;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+
+        span {
+            display: none;
+        }
+
+        &:before {
+            @include fontawesome;
+
+            color: $light-grey;
+            content: "\f15c";
+            font-size: 25px;
+            line-height: 1;
+        }
+    }
+}
+
+td.forum-list-icon-new-posts {
+    span {
+        &:before {
+            color: $blue;
+        }
+    }
+}
+
+tr.even td.forum-list-icon-default .forum-list-icon-wrapper span,
+tr.odd td.forum-list-icon-default .forum-list-icon-wrapper span,
+.forum-list-icon-legend .forum-list-icon-default {
+    display: none;
+}
+
+tr.even td.forum-list-icon-default .forum-list-icon-wrapper span:before,
+tr.odd td.forum-list-icon-default .forum-list-icon-wrapper span:before,
+.forum-list-icon-legend .forum-list-icon-default:before {
+    @include fontawesome;
+
+    content: "\f0f6";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+tr.even td.forum-list-icon-new-posts .forum-list-icon-wrapper span,
+tr.odd td.forum-list-icon-new-posts .forum-list-icon-wrapper span,
+.forum-list-icon-legend .forum-list-icon-new-posts {
+    display: none;
+}
+
+/* TOPIC LIST ICONS *********************************************************/
+
+span.topic-icon {
+    width: 24px;
+    height: 24px;
+    text-indent: 0;
+    background: none;
+    font-size: 0;
+    text-indent: 0;
+
+    &:before {
+        @include fontawesome;
+
+        font-size: 25px;
+        line-height: 1;
+        vertical-align: middle;
+    }
+}
+
+.topic-icon-default {
+    &:before {
+        content: "\f15c";
+        color: $dark-grey;
+    }
+}
+
+.topic-icon-new {
+    &:before {
+        content: "\f15c";
+        color: $blue;
+    }
+}
+
+.topic-icon-hot {
+    &:before {
+        content: "\f192";
+        color: $dark-grey;
+    }
+}
+
+.topic-icon-hot-new {
+    &:before {
+        content: "\f192";
+        color: $blue;
+    }
+}
+
+.topic-icon-sticky {
+    &:before {
+        content: "\f024";
+        color: $blue;
+    }
+}
+
+.topic-icon-closed {
+    &:before {
+        content: "\f023";
+        color: $dark-grey;
+    }
+}
+
+span.forum-collapsible {
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #196b9f;
+
+    @include translate(0, -50%);
+
+    @include border-radius(50%);
+
+    &:before {
+        font: {
+            family: $font-body;
+        };
+        text: {
+            indent: 0;
+            align: center;
+        };
+        content: "-";
+        color: #fff;
+        line-height: 14px;
+        font-size: 20px;
+        display: block;
+    }
+}
+
+span.container-collapsed:before {
+    content: "+";
+    line-height: 15px;
+    font-size: 14px;
+}
+
+/* TOPIC LIST ICON LEGEND ***************************************************/
+
+.forum-topic-legend {
+    > div {
+        background: none;
+        padding: 0;
+        margin-bottom: 1px;
+        padding-left: 40px;
+
+        &:before {
+            @include fontawesome;
+
+            font-size: 14px;
+            margin-right: 5px;
+            line-height: 1;
+        }
+    }
+}
+
+/* AUTHOR PANE **************************************************************/
+
+.forum-post-panel-sub .author-online {
+    color: #7fba00;
+    height: 20px;
+    width: 125px;
+    display: inline-block;
+    margin-right: -11px;
+    margin-top: -21px;
+    &:before {
+        @include fontawesome;
+
+        content: "\f111";
+        font-size: 1.167em;
+        margin-right: 5px;
+    }
+}
+
+.forum-post-panel-sub .author-offline {
+    color: $dark-grey;
+    height: 20px;
+    width: 125px;
+    display: inline-block;
+
+    &:before {
+        @include fontawesome;
+
+        content: "\f111";
+        font-size: 1.167em;
+        margin-right: 5px;
+    }
+}
+
+.forum-post-panel-sub .author-pane .picture {
+    border: 1px solid #eaeaea;
+    display: inline-block;
+}
+
+/* BUTTONIZED LINKS - GENERAL ***********************************************/
+
+/* Based on http://css-tricks.com/examples/ButtonMaker */
+
+a.af-button-large,
+a.af-button-large:link,
+a.af-button-large:visited,
+a.af-button-small,
+a.af-button-small:link,
+a.af-button-small:visited,
+a.author-pane-link,
+a.author-pane-link:link,
+a.author-pane-link:visited {
+    color: $white;
+    text-decoration: none;
+}
+
+.af-button-large,
+.af-button-small,
+.author-pane-link {
+    display: inline-block;
+    background: #34c288;
+    color: $white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: $white;
+
+    @include font-style;
+
+    text-decoration: none;
+    text-transform: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px 20px !important;
+    font-size: $fs-14;
+}
+
+a.af-button-large:hover,
+a.af-button-small:hover,
+a.author-pane-link:hover {
+    background: $dark-grey;
+    color: $white;
+}
+
+a.af-button-large:active,
+a.af-button-small:active,
+a.author-pane-link:active {
+    background: #2587C4;
+    color: $dark;
+    border-top-color: #EFEFEF;
+}
+
+.af-button-large span {
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0;
+
+    /* Last number controls width for image */
+    margin: 0;
+
+    /* Left and right space outside text & image */
+}
+
+.af-button-small span,
+.author-pane-link span,
+.af-button-large span {
+    &:before {
+        @include fontawesome;
+
+        font-size: 1em;
+        margin: -2px 5px 0 0;
+        vertical-align: middle;
+    }
+}
+
+.author-pane-link span {
+    font-size: 1em;
+    padding: 2px;
+
+    /* Last number controls width for image */
+    line-height: 22px;
+
+    /* Approximate height of button */
+    margin: 0 7px 0 7px;
+
+    /* Left and right space outside text & image */
+}
+
+/* BUTTONIZED LINKS - INDIVIDUAL BUTTONS ************************************/
+
+.forum-add-forum .af-button-large span:before {
+    @include fontawesome;
+
+    content: "\f044";
+    font-size: 15px;
+    margin: 0 3px 0 0;
+    vertical-align: middle;
+}
+
+.forum-add-poll .af-button-large span {
+    background: url(images/add_poll.png) no-repeat;
+}
+
+/*** Reply/Locked at the top and bottom of individual topics. ***/
+
+/* Reply link */
+
+.topic-reply-link > span {
+    &:before {
+        content: "\f112";
+
+        @include fontawesome;
+
+        font-size: 1em;
+        margin: 0 3px 0 0;
+        vertical-align: middle;
+    }
+}
+
+/* Locked topic (not a link so an extra span is used instead of the "a". */
+
+.topic-reply-locked > span {
+    &:before {
+        content: "\f023";
+
+        @include fontawesome;
+
+        font-size: 1em;
+        margin: -2px 5px 0 0;
+        vertical-align: middle;
+    }
+}
+
+/* Last post */
+
+.last-post-link span {
+    &:before {
+        content: "\f122";
+
+        @include fontawesome;
+
+        font-size: 1em;
+        margin: -2px 5px 0 0;
+        vertical-align: middle;
+    }
+}
+
+/* First unread */
+
+.topic-new-post-link span {
+    &:before {
+        content: "\f070";
+
+        @include fontawesome;
+
+        font-size: 1em;
+        margin: -2px 5px 0 0;
+        vertical-align: middle;
+    }
+}
+
+/*** Links on the individual posts (nodes and comments). ***/
+
+/* General */
+
+.forum-post-links .af-button-small span {}
+
+/* Reply */
+
+.comment-add .af-button-small span,
+.comment-reply .af-button-small span,
+.topic-reply-allowed span {
+    &:before {
+        content: "\f112";
+    }
+}
+
+/* Quote */
+
+.quote .af-button-small span {
+    background: url(images/post_quote.png) no-repeat;
+}
+
+/* Edit */
+
+.comment-edit .af-button-small span,
+.post-edit .af-button-small span {
+    &:before {
+        content: "\f040";
+    }
+}
+
+/* Delete */
+
+.comment-delete .af-button-small span,
+.post-delete .af-button-small span {
+    &:before {
+        content: "\f014";
+    }
+}
+
+/* Jump to top */
+
+.forum-jump-links {
+    line-height: normal;
+
+    .af-button-small span {
+        &:before {
+            content: "\f062";
+
+            @include fontawesome;
+
+            font-size: 1em;
+            margin: -2px 5px 0 0;
+            vertical-align: middle;
+        }
+    }
+}
+
+/*** AUTHOR PANE ***/
+
+.forum-post-panel-sub .author-privatemsg .author-pane-link span {
+    background: transparent url(images/ap_private_message.png) no-repeat;
+}
+
+.forum-post-panel-sub .author-relationship-add-icon.author-pane-link span {
+    background: transparent url(images/ap_contact_add.png) no-repeat;
+}
+
+.forum-post-panel-sub .author-relationship-remove-icon.author-pane-link {
+    background: transparent url(images/ap_contact_remove.png) no-repeat;
+}

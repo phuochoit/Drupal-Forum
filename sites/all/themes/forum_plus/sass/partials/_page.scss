@@ -1,0 +1,821 @@
+pre {
+	border-radius: 0;
+}
+
+#page {
+	background: #f5f5f5;
+	float: none;
+	overflow: hidden;
+}
+
+#logo {
+	position: absolute;
+	top: 28px;
+	left: 15px;
+	z-index: 10;   
+	width: 168px;
+	height: 18px;    
+}
+
+.panel {
+	background-color: transparent;
+	border-radius: 0;
+	box-shadow: none;
+	margin: 0 0 30px;
+	padding: 0;
+}
+
+.section-title {
+	background: url("../images/bg-banner.jpg") repeat-y 50% 0 #2267ac;
+	margin: 0;
+	padding: 0 15px;
+	text-align: center;
+	.container {
+		padding-bottom: 70px;
+		padding-top: 70px;
+		color: $white;
+	}
+	.title,
+	.welcome-message {
+		color: $white;
+		font-family: $font-body;
+		font-size: 4em;
+		line-height: 1em;
+		margin-bottom: 0;
+		font-weight: $font-hairline;
+		img {
+			vertical-align: top;
+			margin-top: -7px;
+		}
+	}
+	.block-inner {
+		width: 100%;
+	}
+	.content {
+		p {
+			color: $white;
+			font-size: 3em;
+		}
+	}
+}
+
+#title .container {
+	display: table;
+	height: 200px;
+	margin-bottom: 12px;
+	width: 100%;
+	h1 {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+ul li.leaf {
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.more-link {
+	border-top: 1px solid $grey;
+	margin-top: 10px;
+	padding-top: 15px;
+}
+
+.form-submit,
+.form-actions > a {
+	background: #34c288;
+	border: 1px solid #34c288;
+	border-radius: 3px;
+	color: $white;
+	margin-right: 5px;
+	padding: 5px 20px 6px;
+	&:hover,
+	&:focus {
+		background: $dark-grey;
+		border-color: $dark-grey;
+	}
+}
+
+.form-actions > a {
+	background-color: $grey;
+	border-color: $grey;
+	color: $dark;
+	&:hover,
+	&:focus {
+		background-color: $dark;
+		border-color: $dark;
+		color: $white;
+	}
+}
+
+.form-item,
+.form-actions {
+	margin-top: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	float: left;
+	margin: 0 3px 0 0;
+	vertical-align: top;
+}
+/* Breadcrumb */
+#breadcrumb {
+	margin-bottom: 15px;
+}
+
+.breadcrumb {
+	background: none;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	font-size: $fs-13;
+	font-weight: 400;
+	color: $dark-grey-2;
+	a {
+		color: $dark-grey-2;
+		&:hover,
+		&:focus {
+			color: $blue;
+		}
+		&:first-child {
+			&:before {
+				@include fontawesome;
+				content: "\f015";
+				margin-right: 3px;
+			}
+		}
+	}
+}
+
+/* main */
+
+.main {
+	padding-bottom: 30px;
+	.container {
+		position: relative;
+	}
+}
+
+/* Panel */
+
+#panel-first {
+	background: $dark;
+	color: $white;
+	padding: 15px 0 20px;
+	text-align: center;
+	font-size: $fs-16;
+	line-height: 19px;
+	margin-bottom: 12px;
+	.container {
+		padding: {
+			left: 50px;
+			right: 50px;
+		};
+	}
+	a {
+		color: $blue;
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
+	}
+}
+
+#panel-second {
+	margin-bottom: 0;
+	padding: 0 0 30px;
+	.block {
+		float: left;
+		width: 50%;
+		ul.menu {
+			float: right;
+			margin-top: 15px;
+			li {
+				display: inline-block;
+				position: relative;
+				padding: 0;
+				&:before {
+					content: "╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├╣╬ô├╢┬ú╬ô├╢├▒╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝╬ô├▓┬Ñ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝Γö£├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£├Ñ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬ú╬ô├╢├⌐╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£┬¬╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├╣╬ô├╢┬ú╬ô├╢├▒╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├«├ë╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬ú╬ô├╢├⌐╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝╬ô├▓┬Ñ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝Γö£├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼├║╬ô├╢┬╝Γö¼┬╝Γò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├╗├åΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓîÉΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬úΓö¼┬¼Γò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├╗├åΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓîÉΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║╬ô├╢┬╝Γö¼Γò£Γò¼├┤Γö£ΓòóΓö¼├║╬ô├╢┬úΓö¼Γò£Γò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├╗├åΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓòúΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬úΓö£┬¬╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬ú╬ô├╢├⌐╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£┬¬╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬ú╬ô├╢├⌐╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├╣╬ô├╢┬úΓö£├æΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├╗├åΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓîÉΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬úΓö¼┬¼Γò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├╗├åΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ª╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├║Γò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ª╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£ΓòæΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├║Γò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├╗├åΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓîÉΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬úΓö£┬¬Γò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├╗├åΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓòúΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£ΓòæΓò¼├┤Γö£ΓòóΓö¼├║╬ô├╢┬╝Γö¼┬╝╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├╣╬ô├╢┬ú╬ô├╢├▒╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝╬ô├▓┬Ñ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝Γö£├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£├Ñ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬ú╬ô├╢├⌐╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£┬¬╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├╣╬ô├╢┬ú╬ô├╢├▒╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├«├ë╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬ú╬ô├╢├⌐╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝╬ô├▓┬Ñ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝Γö£├ª╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓûÆ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├╣╬ô├╢┬ú╬ô├╢├▒╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝╬ô├▓┬ÑΓò¼├┤Γö£ΓòóΓö¼├║╬ô├╢┬úΓö¼┬¼Γò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├╗├åΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓîÉΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├╗├┤╬ô├╢┬úΓö¼┬¼Γò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼Γò¥Γò¼├┤Γö£ΓûôΓö¼├æ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬╝Γö£Γòæ╬ô├▓┬╝Γö£Γöñ╬ô├╢┬ú╬ô├▓├│╬ô├╢┬ú╬ô├╗├åΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòùΓö£ΓöñΓò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓòóΓö£ΓîÉΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║Γò¼├┤Γö£ΓûôΓö£ΓöéΓò¼├┤Γö£ΓòóΓö¼Γò¥╬ô├╢┬ú╬ô├▓├ªΓò¼├┤Γö£ΓûôΓö¼Γò¥╬ô├╢┬ú╬ô├╢├▒Γò¼├┤Γö£ΓòóΓö¼├║╬ô├╢┬╝Γö¼Γò£Γò¼├┤Γö£ΓòóΓö¼├║╬ô├╢┬úΓö¼Γò£";
+					margin-right: 3px;
+				}
+				&.first {
+					&:before {
+						content: "";
+					}
+				}
+				a {
+					color: $dark-grey;
+					&:hover,
+					&:focus {
+						color: $blue;
+					}
+				}
+			}
+		}
+		.lang_dropdown_form {
+			.form-item {
+				margin: 0;
+				.dd-select {
+					background: #f9f9f9 !important;
+					border-color: #d8d8d8;
+					@include border-radius(3px);
+					height: 28px;
+					label {
+						float: left;
+						color: $dark-grey-2;
+						line-height: 15px !important;
+						margin-bottom: 0;
+						font-size: $fs-14;
+					}
+					.dd-pointer-down {
+						border-top-color: $dark-grey-2;
+						border-width: 4px !important;
+						margin-top: -2px;
+					}
+					.dd-pointer-up {
+						border-bottom-color: $dark-grey-2 !important;
+						margin-top: -6px;
+					}
+				}
+				.dd-options {
+					label {
+						float: left;
+						color: $dark-grey;
+						line-height: 9px !important;
+						margin-bottom: 0;
+						margin-top: 2px;
+						font-size: $fs-14;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Contact form */
+
+.contact-form {
+	background: $white;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	padding: 0;
+	.form-item {
+		label {
+			display: block;
+		}
+		.form-text {
+			width: 100%;
+		}
+	}
+	.form-type-checkbox {
+		.form-checkbox {
+			margin: 2px 5px 0 0;
+		}
+		label {
+			display: inline-block;
+		}
+	}
+	.form-actions {
+		margin-bottom: 0;
+	}
+}
+
+#contact-personal-form {
+	padding: 15px;
+	input[type="text"] {
+		width: 50%;
+	}
+}
+
+.forum-contact1 {
+	margin-bottom: 0;
+	.webform-client-form {
+		margin: 0 -7px;
+		.form-item {
+			float: left;
+			padding: 0 7px;
+			width: 33.33%;
+			.form-text {
+				width: 100%;
+			}
+		}
+		.form-actions {
+			padding: 0 7px;
+		}
+		.webform-component-textarea {
+			clear: both;
+			float: none;
+			width: 100%;
+		}
+	}
+	.field-type-text-with-summary {
+		padding: 0 7px;
+		address {
+			line-height: 2em;
+		}
+	}
+}
+
+.forum-contact2 {
+	margin: 0;
+	.webform-client-form {
+		float: right;
+		margin-left: 20px;
+		width: 50%;
+		.form-text {
+			width: 100%;
+		}
+	}
+	.field-type-text-with-summary {
+		address {
+			line-height: 2em;
+		}
+	}
+}
+
+.contact-content {
+	.fa {
+		margin-right: 5px;
+	}
+}
+
+/* Login page */
+
+.ctools-use-modal-processed {
+	.form-text {
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	label {
+		margin-bottom: 5px;
+	}
+	.user-picture {
+		display: none;
+	}
+}
+
+#user-login,
+#user-register-form,
+#user-pass,
+.profile {
+	background-color: $white;
+	border: 1px solid $grey;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+	margin: 0 auto;
+	padding: 20px 20px 10px;
+	overflow: hidden;
+	&.form-item-openid-identifier {
+		float: none;
+	}
+	.form-text {
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	label {
+		margin-bottom: 5px;
+	}
+	.user-picture {
+		display: none;
+	}
+	h3 {
+		background-color: $blue;
+		border-radius: 5px 5px 0 0;
+		border-bottom: none;
+		margin: -20px -20px 15px;
+		padding: 10px 20px;
+		color: #fff;
+		@include font-style;
+	}
+}
+
+#user-login .form-item,
+#user-pass .form-item,
+#user-register-form .form-item {
+	float: left;
+	width: 50%;
+	.form-text {
+		width: 90%;
+	}
+}
+
+#user-login .form-type-checkbox {
+	clear: both;
+}
+
+#user-login {
+	.form-checkbox {
+		margin: 5px 5px 0 0;
+	}
+}
+
+#user-pass .form-item {
+	float: none;
+}
+
+#user-profile-form {
+	background: $white;
+	border-radius: 5px 5px 0 0;
+	padding: 15px;
+	label {
+		display: block;
+	}
+	legend {
+		padding-bottom: 5px;
+	}
+	select {
+		width: 70%;
+	}
+}
+
+.page-taxonomy {
+	.node {
+		margin-bottom: 15px;
+	}
+}
+
+/* contact */
+
+.page-contact {
+	.region-content {
+		background: $white;
+		overflow: hidden;
+		padding: 30px;
+		@include border-radius-5;
+		> .block {
+			float: left;
+			width: 50%;
+			+ .block .block-inner {
+				margin-left: 30px;
+				address {
+					line-height: 2;
+				}
+			}
+			h2 {
+				@include font-style;
+			}
+		}
+	}
+}
+
+.node-webform {
+	ul.inline {
+		clear: both;
+	}
+}
+
+#gmap {
+	margin-top: -15px;
+	iframe {
+		border: none;
+		margin-bottom: 20px;
+		width: 100%;
+		display: block;
+	}
+}
+
+.submenu-extend {
+	color: $white;
+	position: absolute;
+	left: 15px;
+	top: 89px;
+	z-index: 99;
+	font-weight: $font-primary;
+}
+
+/* 404 page */
+
+.page-404 {
+	margin: 100px auto 0;
+	text-align: center;
+	color: $dark-grey;
+	width: 50%;
+	h1 {
+		color: $blue;
+		@include font-style;
+		font-size: 16em;
+		line-height: 1;
+		margin: 0 !important;
+	}
+	#errorbox {
+		margin-top: 15px;
+		a {
+			@include border-radius(3px);
+			background: $dark-grey;
+			color: $white;
+			display: inline-block;
+			padding: 10px 20px;
+			&:hover,
+			&:focus {
+				background: $blue;
+			}
+		}
+	}
+}
+
+/* */
+
+.ddsDefault {
+	.dd-selected {
+		padding-bottom: 5px;
+		padding-top: 5px;
+		img {
+			margin-top: 1px;
+		}
+	}
+	.dd-options {
+		box-shadow: none;
+	}
+}
+
+/* Page search */
+
+.page-search {
+	#content {
+		background: $white;
+		-webkit-border-radius: 5px 5px 0 0;
+		border-radius: 5px 5px 0 0;
+		padding: 15px;
+	}
+}
+
+.search-results {
+	li {
+		margin-bottom: 20px;
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 15px;
+	}
+}
+
+/* faq */
+
+#faq-order-settings-form {
+	background: $white;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	padding: 15px;
+	table {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	th,
+	td {
+		padding: 10px;
+	}
+	tr.even,
+	tr.odd {
+		background: none;
+		padding: 0;
+		border-color: #eee;
+	}
+}
+
+.node-forum-form {
+	background: $white;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	padding: 15px;
+}
+
+/* messages */
+
+#messages {
+	margin-bottom: 15px;
+}
+
+.comment-form {
+	.forum-post {
+		margin: -15px -15px 15px;
+	}
+}
+
+.forum-post-links ul.links li {
+	margin-right: 5px;
+	a {
+		padding: 4px 20px 6px;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+}
+
+.search-form {
+	input[type="text"] {
+		height: 30px;
+	}
+	input[type="checkbox"] {
+		float: none !important;
+		display: inline-block;
+		vertical-align: baseline !important;
+	}
+}
+
+.author-pane-link {
+	span {
+		margin: 0 !important;
+	}
+}
+
+.form-textarea-wrapper {
+	textarea {
+		max-width: 100%;
+	}
+}
+
+/* chosen-container */
+.chosen-container {
+	font-size: 14px;
+	.chosen-results {
+		padding: 0;
+		margin: 0;
+		li {
+			padding: 4px 14px 5px;
+			&.highlighted {
+				background: $blue;
+			}
+		}
+	}
+	.chosen-drop {
+		border-color: #d8d8d8;
+		box-shadow: none;
+	}
+}
+
+.chosen-container-single .chosen-single {
+	@include border-radius(3px);
+	box-shadow: none;
+	border: 1px solid #d8d8d8;
+	padding: 0;
+	text-align: center;
+	background: none;
+	height: 30px;
+	line-height: 22px;
+	color: $dark-grey;
+	padding: 3px 25px 3px 14px;
+	&:before {
+		content: '';
+		border-top: 4px solid $dark-grey-2;
+		border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		position: absolute;
+		right: 10px;
+		top: 12px;
+	}
+	span {
+		margin-right: 0;
+	}
+	div {
+		display: none !important;
+	}
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	color: $blue;
+	box-shadow: none;
+	&:before {
+		border-top: none;
+		border-bottom: 4px solid $blue;
+	}
+}
+
+/* table home */
+.forum-table {
+	tbody {
+		tr:last-child {
+			border-bottom: 0 none;
+		}
+	}
+	td{
+		.forum-description{
+			line-height: 1.2;
+			font-weight: 400;
+		}
+		.forum-name{
+			margin-bottom: 1px;
+		}
+	}
+	thead{
+		tr{
+			th{
+				padding-bottom: 4px;
+				text-transform: uppercase;
+				a{
+					text-transform: uppercase !important;
+				}
+			}
+		}
+	}
+}
+
+.forum-table-wrap .forum-table-superheader{
+	padding-top: 17px;
+	padding-bottom: 13px;
+}
+.forum-tools .chosen-container-single .chosen-single{
+	line-height: 21px;
+}
+
+#forum-statistics #forum-statistics-header{
+	padding-top: 17px;
+	padding-bottom: 13px;
+}
+
+.forum-table-topics thead tr th{
+	padding-bottom: 15px;
+	font-size: $fs-15;
+	text-transform: uppercase;
+	a{
+		text-transform: uppercase;
+	}
+}
+.forum-node-create-links{
+	color: $dark-grey-2;
+    font-size: $fs-14;
+    font-weight: 400;
+    margin-top: -5px;
+}
+.forum-node-create-links-top {
+    color: $dark-grey-2;
+    font-size: $fs-14;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.forum-table-topics td.views-field-title span, 
+.forum-table-topics td.views-field-title .topic-title, 
+.forum-table-topics td.views-field-title .sticky-label{
+	font-size: 15px;
+	font-weight: 400;
+}
+.forum-post-panel-sub{
+	.author-offline{
+		width: auto;
+		margin: -20px -11px 0 0;
+		float: right;
+		position: relative;
+	}
+	.author-name{
+		clear: both;
+	}
+	.author-pane-line, .author-joined{
+		line-height: 1.2;
+	}
+}
+.forum-topic-header{
+	margin-bottom: 0;
+	color: $dark-grey-2;
+	font-size: $fs-14;
+}
+/* blog */
+.view-articles, .view-blogs{
+	.item-list{
+		.pager{
+			margin-top: -9px;
+		}
+	}
+	.pager-top{
+		.item-list{
+			.pager{
+				margin-top:0;
+			}
+		}
+	}
+}
+
+.page-blog, #main {
+	.item-list{
+		.pager{
+			margin-top: -9px;
+		}
+	}
+}
+
+.node{
+	.field-name-field-tags{
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+}
+
+.views-field-message-render{
+	margin-bottom: 10px;
+	p{
+		margin-bottom: 0;
+	}
+}
+.view-activity-stream{
+	.item-list .pager{
+		margin-top: 5px !important;
+	}
+	.pager-top .item-list .pager{
+		margin-top: 0 !important;
+	}
+}
+
+.search-form {
+	.form-submit {
+		padding: 2px 20px 3px;
+	}
+}
